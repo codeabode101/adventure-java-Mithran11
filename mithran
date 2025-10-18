@@ -11,18 +11,30 @@ public class ScannerExample {
         System.out.print("Enter your name: ");
         String name = scanner.nextLine(); 
 
-         System.out.println("Hello, " + name);
-         System.out.print("You are at a crossroads. Do you go (1) Left or (2) Right?");
+        System.out.println("Hello, " + name);
+        
+        int choice=scanner.nextInt();
+
+        if (choice == 1){
+           System.out.println("you are at a crossroads. Do you go (1) River or (2)System.out.println(\"1=Rir\)?");
+
+            choice=scanner.nextInt();
+
+            if(choice==1){
+                System.out.println("1=River")
+            }
+            else{System.out.println("2=")
+
+            }
 
 
 
-
-if (choice == 1);
-    print("You chose the left path.");
-else:
-    print("You chose the right path.");
-   
+            System.out.println("You see a forest.");
+         } else { 
+            System.out.println("You see a river .");
+        }   
          
+        
 
     }
 
