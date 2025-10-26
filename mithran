@@ -1,7 +1,7 @@
+
 //import java.util.Scanner();
 import java.util.*;
 import java.util.Scanner;
-
 
 public class ScannerExample {
     public static void main(String[] args) {
@@ -12,20 +12,50 @@ public class ScannerExample {
         String name = scanner.nextLine(); 
 
         System.out.println("Hello, " + name);
-        
+
+        System.out.println("what is the secoret worde");
+
+          String  worde = scanner.nextLine(); 
+
+        System.out.println("you are at a crossroad. Do you go (1) left or (2) right?");
+
         int choice=scanner.nextInt();
 
         if (choice == 1){
-           System.out.println("you are at a crossroads. Do you go (1) River or (2)System.out.println(\"1=Rir\)?");
+            System.out.println("You go left.");
+            System.out.println("you are at a crossroad. Do you go (1) River or (2)forest?");
 
             choice=scanner.nextInt();
 
             if(choice==1){
-                System.out.println("1=River")
+                System.out.println("you see a river");
+                if (worde.equals("magic")){
+                    System.out.println("ther is a magical brige");
+                } else {
+                    System.out.println("the water is to big so go home");
+                }
+            } else {
+                System.out.println("you see a forest");
             }
-            else{System.out.println("2=")
+                if (worde.equals("friend"))
+                {
+                System.out.println("Friendly animals greet and show you the way out");
+            } else {
+                System.err.println("Friendly animals eat you.");
 
             }
+
+        }
+          
+          else 
+            System.out.println("You go right.");
+          
+
+         }
+
+}
+
+
 
 
 
