@@ -1,4 +1,3 @@
-
 //import java.util.Scanner();
 import java.util.*;
 import java.util.Scanner;
@@ -41,7 +40,7 @@ public class ScannerExample {
                 {
                 System.out.println("Friendly animals greet and show you the way out");
             } else {
-                System.err.println("Friendly animals eat you.");
+                System.out.println("Friendly animals eat you.");
 
             }
 
@@ -49,23 +48,19 @@ public class ScannerExample {
           
           else 
             System.out.println("You go right.");
+
+            int itemsFound = 0;
           
+            if (itemsFound = itemsFound + 1)
+
+            else
+            (itemsFound++)
+
+            System.out.println("You found [itemsFound] special items on your journey!");
+
+            
 
          }
-
-}
-
-
-
-
-
-            System.out.println("You see a forest.");
-         } else { 
-            System.out.println("You see a river .");
-        }   
-         
-        
-
-    }
+         input.close()
 
 }
